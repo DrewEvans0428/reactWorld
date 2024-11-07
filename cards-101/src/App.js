@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import HomePage from './pages/HomePage';
 import Blackjack from './pages/blackjack';
@@ -14,18 +14,21 @@ import GinRummy from './pages/gin-rummy';
 
 function App() {
   return (
-    <Router>
-    <Routes>
-      <Route path="/blackjack" element={<Blackjack />} />
-      <Route path="/poker" element={<Poker />} />
-      <Route path="/rummy" element={<Rummy />} />
-      <Route path="/euchre" element={<Euchre />} />
-      <Route path="/bridge" element={<Bridge />} />
-      <Route path="/solitaire" element={<Solitaire />} />
-      <Route path="/spades" element={<Spades />} />
-      <Route path="/gin-rummy" element={<GinRummy />} />
-    </Routes>
-    </Router>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Layout>
+       <Routes>
+         <Route path="/" element={<HomePage />} />
+         <Route path="/blackjack" element={<Blackjack />} />
+         <Route path="/poker" element={<Poker />} />
+         <Route path="/rummy" element={<Rummy />} />
+         <Route path="/euchre" element={<Euchre />} />
+         <Route path="/bridge" element={<Bridge />} />
+         <Route path="/solitaire" element={<Solitaire />} />
+         <Route path="/spades" element={<Spades />} />
+         <Route path="/gin-rummy" element={<GinRummy />} />
+      </Routes>
+     </Layout>
+    </BrowserRouter>
   );
 }
 

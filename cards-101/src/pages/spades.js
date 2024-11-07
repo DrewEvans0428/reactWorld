@@ -1,29 +1,10 @@
 import React from 'react';
 import './spades.css';
-import { Link } from 'react-router-dom';
+
 
 function Spades() {
     return (
         <div className="spades">
-        <header id="main-header">
-            <div class="logo">
-                
-            </div>
-            <nav>
-            <ul class="nav-links">
-                <li><Link to="/blackjack">Blackjack</Link></li>
-                    <li><Link to="/solitaire">Solitaire</Link></li>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/spades">Spades</Link></li>
-                    <li><Link to="/poker">Poker</Link></li>
-                    <li><Link to="/rummy">Rummy</Link></li>
-                    <li><Link to="/bridge">Bridge</Link></li>
-                    <li><Link to="/gin-rummy">Gin Rummy</Link></li>
-                    <li><Link to="/euchre">Euchre</Link></li>
-                    <li><Link to="/contact">Contact Us</Link></li>
-            </ul>
-            </nav>
-        </header>
         
         <section class="spades-intro">
             <div class="intro-text">
