@@ -19,7 +19,7 @@
     "gh-pages": "^6.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts-start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -27,7 +27,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "browserlist": {
+  "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
