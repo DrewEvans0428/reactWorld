@@ -1,5 +1,5 @@
 {
-  "homepage": "/reactWorld",
+  "homepage": ".",
   "name": "reactworld",
   "version": "1.0.0",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
@@ -18,14 +18,25 @@
     "gh-pages": "^6.2.0"
   },
   "scripts": {
-    "start": "react-scripts-start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts-eject"
+    "eject": "react-scripts eject"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "browserlist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+
+  }
 }
