@@ -12,7 +12,7 @@
                 "title":"Blackjack",
                 "description":"Have the highest score but don't go above 21",
                 "img_name": "images/bj_project_image.jpg",
-                "link": "blackjack.js",
+                "link": "/blackjack",
                 "features": [
                     "strategy",
                     "luck",
@@ -24,7 +24,7 @@
                 "title": "Solitaire",
                 "description":"A less stressfull and more skilled game",
                 "img_name": "images/soli_project_image.jpg",
-                "link":"solitaire.js",
+                "link":"/solitaire",
                 "features":[
                     "Patience",
                     "Solo",
@@ -36,7 +36,7 @@
                 "title":"Poker",
                 "description":"A multiplayer game that is fun with friends",
                 "img_name":"images/poker_project_image.jpg",
-                "link":"poker.js",
+                "link":"/poker",
                 "features":[
                     "Bluffing",
                     "multiplayer",
@@ -48,7 +48,7 @@
                 "title":"Spades",
                 "description": "A game of strategy",
                 "img_name": "images/spades_project_image.jpg",
-                "link":"spades.js",
+                "link":"/spades",
                 "features":[
                     "Team Play",
                     "Strategy",
@@ -60,7 +60,7 @@
                 "title":"Rummy",
                 "description": "A game pairs and strategy",
                 "img_name": "images/rummy.jpg",
-                "link":"rummy.js",
+                "link":"/rummy",
                 "features":[
                     "Sequences",
                     "Matching",
@@ -73,7 +73,7 @@
                 "title":"Bridge",
                 "description": "A game of teamwork",
                 "img_name": "images/bridge.jpg",
-                "link":"bridge.js",
+                "link":"/bridge",
                 "features":[
                     "Team Play",
                     "Strategy",
@@ -85,7 +85,7 @@
             "title":"Gin-Rummy",
             "description": "A spinoff of Rummy",
             "img_name": "images/gin_rummy.jpg",
-            "link":"gin-rummy.js",
+            "link":"/gin-rummy",
             "features":[
                 "Quick thinking",
                 "Strategy",
@@ -97,7 +97,7 @@
         "title":"Euchre",
         "description": "A trick-taking game",
         "img_name": "images/euchre.jpg",
-        "link":"euchre.js",
+        "link":"/euchre",
         "features":[
             "Team Play",
             "Strategy",
