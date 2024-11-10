@@ -1,4 +1,5 @@
 {
+  "homepage": "/reactWorld",
   "name": "reactworld",
   "version": "1.0.0",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
@@ -9,14 +10,20 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router": "^6.27.0",
-    "react-router-dom": "^6.27.0",
+    "react-router-dom": "^6.28.0",
+    "react-scripts": "^5.0.1",
     "scheduler": "^0.23.2"
   },
   "devDependencies": {
     "gh-pages": "^6.2.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts-start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts-eject"
   },
   "keywords": [],
   "author": "",
