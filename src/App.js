@@ -10,6 +10,7 @@ import Bridge from './pages/bridge';
 import Solitaire from './pages/solitaire';
 import Spades from './pages/spades';
 import GinRummy from './pages/gin-rummy';
+import Contact from './pages/contact';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
          <Route path="/solitaire" element={<Solitaire />} />
          <Route path="/spades" element={<Spades />} />
          <Route path="/gin-rummy" element={<GinRummy />} />
+         <Route path="/contact" element={<Contact />} />
       </Routes>
      </Layout>
     </BrowserRouter>

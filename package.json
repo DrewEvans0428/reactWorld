@@ -1,5 +1,5 @@
 {
-  "homepage": "/reactWorld",
+  "homepage": ".",
   "name": "reactworld",
   "version": "1.0.0",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
@@ -11,15 +11,14 @@
     "react-dom": "^18.3.1",
     "react-router": "^6.27.0",
     "react-router-dom": "^6.28.0",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^3.4.4",
     "scheduler": "^0.23.2"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.2.0"
   },
   "scripts": {
-    "start": "react-scripts-start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

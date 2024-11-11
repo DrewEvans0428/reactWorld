@@ -66,9 +66,6 @@ function Blackjack() {
             </div>
             </section>
 
-            <footer>
-                <p>Cards 101: Andrew Evans</p>
-            </footer>
         </div>
     );
 }
