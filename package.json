@@ -1,9 +1,8 @@
 {
-  "homepage": ".",
-  "name": "reactworld",
+  "homepage": "reactWorld",
+  "name": "reactWorld",
   "version": "1.0.0",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
+  "private":"false",
   "dependencies": {
     "js-tokens": "^4.0.0",
     "loose-envify": "^1.4.0",
@@ -14,11 +13,11 @@
     "react-scripts": "^3.4.4",
     "scheduler": "^0.23.2"
   },
-  "devDependencies": {
-    "gh-pages": "^6.2.0"
-  },
+  
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

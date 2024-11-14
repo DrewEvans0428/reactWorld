@@ -2,11 +2,11 @@ import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 
-function Layout({ children }) {
+function Layout() {
     return (
         <div>
             <Header />
-        <main>{children}</main>
+        <main></main>
         <Footer />
         </div>
     );
